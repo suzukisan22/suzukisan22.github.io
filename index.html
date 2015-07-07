@@ -1,51 +1,74 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap 101 Template</title>
+    <link rel="stylesheet" href="common/css/main.css">
+    <link rel="stylesheet" href="common/css/style.css">
     <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  
-  </head>
-  <body>
-   <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </body>
+    <!-- fontawesome-->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- google font-->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <style>
+
+
+
+    </style>
+
+</head>
+<body>
+<div class="nav">
+    <a href="index.html#hero" class="scroll">section one</a>
+    <a href="index.html#work" class="scroll">section two</a>
+    <a href="index.html#networks" class="scroll">section three</a>
+</div>
+<section id="hero">
+    <div class="hero-block">
+        <img class="img-circle" src="common/image/logo.png" width="200" height="200" class="mb-7 hero-image">
+        <p>Hello, I'm Ryota Suzuki. this is my portfolio!! <br>
+            Before you see this one, I want you to know about me!!<br>
+            I am a university student, and I am working at IT company in Osaka , we are making web site!!<br>
+            I am in charge of coding part in this company!!<br>
+            I hope you will enjoy in here!! see you soon and follow me SNS!!</p>
+    </div>
+    <a href="index.html#work" class="scroll"><span class="down-arrow"></span></a>
+</section>
+
+
+<section id="work">
+    <div class="showcase">
+        <div class="showcase-tiles">
+            <ul class="slides">
+                <!--Dribbble feed-->
+            </ul>
+        </div>
+        <div class="showcase-info">
+            <h2 class="mb-7">Follow me on Dribbble!</h2>
+        </div>
+    </div>
+</section>
+
+
+<section id="networks">
+    <div class="container">
+        <p>
+            <a href="#"><i class="dribbble fa fa-dribbble"></i></a><a href="#"><i class="facebook fa fa-facebook"></i></a><a href="#"><i class="twitter fa fa-twitter"></i></a><a href="#"><i class="mail fa fa-envelope"></i></a>
+        </p>
+
+    </div>
+
+</section>
+
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="common/js/jribbble.js"></script>
+        <script src="common/js/site-ck.js"></script>
+
+</body>
 </html>
