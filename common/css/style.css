@@ -173,10 +173,82 @@ a:active:hover {
 
 #work .showcase {
     width: 100%;
-    padding: 0px;
+    padding: 0;
     height: 100%;
 
 }
+
+#work h1{
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.music i,
+.travel i,
+.book i{
+    font-size: 10em;
+    color: #fff;
+}
+
+
+#slideshow,
+#slideshow li img,
+#slideshow2,
+#slideshow2 li img,
+#slideshow3,
+#slideshow3 li img
+{
+    width: 100%;
+
+}
+
+
+
+#slideshow,
+#slideshow2,
+#slideshow3{
+    list-style-type: none;
+    pointer-events: none;
+    position: relative;
+    padding-top: 30px;
+    box-sizing: border-box;
+
+}
+
+#slideshow > li,
+#slideshow2 > li,
+#slideshow3 > li
+{
+    opacity: 0;
+    position: absolute;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+
+
+}
+
+#slideshow li.current,
+#slideshow2 li.current,
+#slideshow3 li.current{
+    opacity: 1;
+}
+
+#slideshow img,
+#slideshow2 img,
+#slideshow3 img{
+    max-height: 262px;
+    box-sizing: border-box;
+    border: 1px solid #f3f3f3;
+    box-shadow: 1px 1px 1px #d3d3d3;
+}
+
+
+
+
 
 .showcase-tiles {
     padding-top: 0px;
