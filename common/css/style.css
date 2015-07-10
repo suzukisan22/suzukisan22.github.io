@@ -286,19 +286,22 @@ a:active:hover {
     font-weight: 300; }
 
 ul.slides {
-    line-height: 0px;
-    padding: 0px; }
+    line-height: 0;
+    padding: 0;
+}
 
 ul.slides li {
     display: inline-block;
-    width: 25%; }
+    width: 25%;
+}
 
 
 ul.slides li a {
     display: block;
     width: 100%;
     height: 100%!important;
-    position: relative; }
+    position: relative;
+}
 
 ul.slides li a:hover .d-hover {
     display: block; }
@@ -322,6 +325,9 @@ ul, menu, dir {
 @media only screen and (max-width: 1000px) {
     ul.slides li {
         width: 33%; } }
+
+
+
 @media only screen and (max-width: 767px) {
     ul.slides li {
         width: 50%; } }
@@ -329,7 +335,18 @@ ul.slides li a {
     display: block;
     width: 100%;
     height: 100%;
-    position: relative; }
+    position: relative;
+}
+
+.music,
+.travel,
+.book{
+    padding-top: 30px;
+}
+
+
+
+
 ul.slides li a:hover .d-hover {
     display: block; }
 ul.slides li a img {
