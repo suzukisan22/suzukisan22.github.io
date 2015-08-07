@@ -342,8 +342,12 @@ ul.slides li a {
 .travel,
 .book{
     padding-top: 30px;
+    font-size: 0.8em;
 }
 
+.hero-block p{
+    margin-top: 30px;
+}
 
 
 
@@ -370,7 +374,7 @@ ul.slides li a p {
     padding: 18px;
 }
 
-#networks .dribbble:hover {
+#networks .github:hover {
     color: #ed6297;
 }
 
